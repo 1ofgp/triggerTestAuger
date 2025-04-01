@@ -9,7 +9,7 @@ void setup() {
 }
 
 void printTrigger() {
-  Serial.println("yo");
+  Serial.write('1');
 }
 
 void loop() {
